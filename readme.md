@@ -10,7 +10,7 @@ Zito is a powerful utility functions library specifically designed for TypeScrip
 - 🧩 **Modular Design**: Zito follows a modular design, allowing you to selectively import only the functions you need, reducing unnecessary code bloat.
 - 🌐 **Open-Source**: Zito is an open-source project, inviting community contributions, bug reports, and feature requests to foster collaboration and continuous improvement.
 
-## Getting Started (not published yet)
+## Getting Started
 
 To start using Zito in your TypeScript project, follow these steps:
 
