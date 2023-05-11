@@ -4,7 +4,7 @@
  * @param n - The number to calculate the factorial for.
  * @returns The factorial of the given number.
  */
-export function calculateFactorial(n: number): number {
+export function factorial(n: number): number {
   if (n < 0) {
     throw new Error("Factorial is not defined for negative numbers.");
   }

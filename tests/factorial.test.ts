@@ -1,13 +1,13 @@
-import { calculateFactorial } from "../src/calculateFactorial";
+import { factorial } from "../src/factorial";
 
-describe("calculateFactorial", () => {
+describe("factorial", () => {
   it("should calculate the factorial of a positive number", () => {
     // Arrange
     const number = 5;
     const expectedFactorial = 120;
 
     // Act
-    const result = calculateFactorial(number);
+    const result = factorial(number);
 
     // Assert
     expect(result).toEqual(expectedFactorial);
@@ -19,7 +19,7 @@ describe("calculateFactorial", () => {
     const expectedFactorial = 1;
 
     // Act
-    const result = calculateFactorial(number);
+    const result = factorial(number);
 
     // Assert
     expect(result).toEqual(expectedFactorial);
@@ -30,7 +30,7 @@ describe("calculateFactorial", () => {
     const number = -5;
 
     // Act and Assert
-    expect(() => calculateFactorial(number)).toThrowError(
+    expect(() => factorial(number)).toThrowError(
       "Factorial is not defined for negative numbers."
     );
   });
