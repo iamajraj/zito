@@ -1,6 +1,6 @@
 {
   "name": "zito",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zito is a powerful utility functions library specifically designed for TypeScript projects. It provides a comprehensive set of utility functions to simplify common programming tasks, improve code quality, and boost development productivity.",
   "main": "./dist/index.js",
   "module": "./dist/es2015/index.js",
