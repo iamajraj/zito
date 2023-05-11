@@ -15,8 +15,10 @@
 export function groupBy<T>(arr: T[], key: keyof T): { [key: string]: T[] } {
   return arr.reduce((acc, obj) => {
     const val = obj[key] as unknown as string;
-    acc[val] = acc[val] || [];
-    acc[val].push(obj);
+    if (val !== undefined) {
+      acc[val] = acc[val] || [];
+      acc[val].push(obj);
+    }
     return acc;
   }, {} as { [key: string]: T[] });
 }
