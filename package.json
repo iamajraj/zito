@@ -1,0 +1,36 @@
+{
+  "name": "zito",
+  "version": "0.0.1",
+  "description": "Zito is a powerful utility functions library specifically designed for TypeScript projects. It provides a comprehensive set of utility functions to simplify common programming tasks, improve code quality, and boost development productivity.",
+  "main": "./dist/index.js",
+  "module": "./dist/es2015/index.js",
+  "scripts": {
+    "build": "tsc && tsc --module es2015 --target es2015 --outDir dist/es2015",
+    "clean": "rm -rf ./dist",
+    "test": "jest"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "typescript",
+    "utility functions",
+    "functions",
+    "zito"
+  ],
+  "author": "Muhammad Raj <akmalraj07@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamajraj/zito/issues"
+  },
+  "homepage": "https://github.com/iamajraj/zito#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  }
+}
