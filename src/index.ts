@@ -10,3 +10,4 @@ export { findIndexByProperty } from "./findIndexByProperty";
 export { toTitleCase } from "./toTileCase";
 export { isPalindrome } from "./isPalindrome";
 export { mostFrequent } from "./mostFrequent";
+export { flattenArray } from "./flattenArray";
