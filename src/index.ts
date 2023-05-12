@@ -9,3 +9,4 @@ export { sum } from "./sum";
 export { findIndexByProperty } from "./findIndexByProperty";
 export { toTitleCase } from "./toTileCase";
 export { isPalindrome } from "./isPalindrome";
+export { mostFrequent } from "./mostFrequent";
