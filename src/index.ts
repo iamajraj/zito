@@ -4,3 +4,4 @@ export { deepMerge } from "./deepMerge";
 export { factorial } from "./factorial";
 export { groupBy } from "./groupBy";
 export { flattenObject } from "./flattenObject";
+export { isObject } from "./isObject";
