@@ -8,3 +8,4 @@ export { isObject } from "./isObject";
 export { sum } from "./sum";
 export { findIndexByProperty } from "./findIndexByProperty";
 export { toTitleCase } from "./toTileCase";
+export { isPalindrome } from "./isPalindrome";
