@@ -5,3 +5,6 @@ export { factorial } from "./factorial";
 export { groupBy } from "./groupBy";
 export { flattenObject } from "./flattenObject";
 export { isObject } from "./isObject";
+export { sum } from "./sum";
+export { findIndexByProperty } from "./findIndexByProperty";
+export { toTitleCase } from "./toTileCase";
