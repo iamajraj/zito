@@ -16,3 +16,6 @@ export { randV4UUID } from "./randV4UUID";
 export { findMax } from "./findMax";
 export { findMin } from "./findMin";
 export { isWhitespace } from "./isWhitespace";
+export { isValidEmail } from "./isValidEmail";
+export { isWithinRange } from "./isWithinRange";
+export { randInt } from "./randInt";
