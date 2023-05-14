@@ -19,3 +19,4 @@ export { isWhitespace } from "./isWhitespace";
 export { isValidEmail } from "./isValidEmail";
 export { isWithinRange } from "./isWithinRange";
 export { randInt } from "./randInt";
+export { randString } from "./randString";
