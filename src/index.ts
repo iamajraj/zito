@@ -15,3 +15,4 @@ export { capitalize } from "./capitalize";
 export { randV4UUID } from "./randV4UUID";
 export { findMax } from "./findMax";
 export { findMin } from "./findMin";
+export { isWhitespace } from "./isWhitespace";
