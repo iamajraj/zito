@@ -20,3 +20,4 @@ export { isValidEmail } from "./isValidEmail";
 export { isWithinRange } from "./isWithinRange";
 export { randInt } from "./randInt";
 export { randString } from "./randString";
+export { debounce } from "./debounce";
