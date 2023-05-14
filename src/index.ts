@@ -11,3 +11,4 @@ export { toTitleCase } from "./toTileCase";
 export { isPalindrome } from "./isPalindrome";
 export { mostFrequent } from "./mostFrequent";
 export { flattenArray } from "./flattenArray";
+export { capitalize } from "./capitalize";
