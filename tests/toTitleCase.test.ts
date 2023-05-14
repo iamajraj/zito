@@ -1,4 +1,4 @@
-import { toTitleCase } from "../src/toTileCase";
+import { toTitleCase } from "../src/toTitleCase";
 
 describe("toTitleCase", () => {
   it("should convert a string to title case", () => {

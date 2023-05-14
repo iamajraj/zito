@@ -7,7 +7,7 @@ export { flattenObject } from "./flattenObject";
 export { isObject } from "./isObject";
 export { sum } from "./sum";
 export { findIndexByProperty } from "./findIndexByProperty";
-export { toTitleCase } from "./toTileCase";
+export { toTitleCase } from "./toTitleCase";
 export { isPalindrome } from "./isPalindrome";
 export { mostFrequent } from "./mostFrequent";
 export { flattenArray } from "./flattenArray";
