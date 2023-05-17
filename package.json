@@ -6,7 +6,8 @@
   "module": "./dist/es2015/index.js",
   "scripts": {
     "build": "tsc && tsc --module es2015 --target es2015 --outDir ./dist/es2015",
-    "clean": "rmdir /s /q dist",
+    "clean:window": "rmdir /s /q dist",
+    "clean": "rm -f ./dist",
     "test": "jest"
   },
   "files": [
